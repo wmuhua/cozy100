@@ -1,0 +1,296 @@
+#navlist{
+    height:38px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#navlist> ul{
+    display: flex;
+    margin-bottom: 30px;
+}
+#navlist>ul li{
+    flex: 1;
+    height:38px;
+    line-height:38px;
+    position: relative;
+}
+#navlist>ul li~li{
+    margin-left: 30px;
+}
+.navlist_blue{
+    background-color:#108bee;
+    text-align:center;
+    font-size:16px;
+    font-weight:bold;
+    color:#FFF;
+    height:38px;
+}
+#navlist .navlist_blue i{
+    position: absolute;
+    top:0;right:-20px;
+    width: 0;
+    height: 0;
+    border-top: 19px solid transparent;
+    border-left: 20px solid #108bee;
+    border-bottom: 19px solid transparent;
+}
+
+.navlist_gray{
+    background-color:#e8e8e8;
+    text-align:center;
+    font-size:14px;
+    font-weight:bold;
+}
+
+#navlist .navlist_gray i,
+#navlist .navlist_gray b{
+    position: absolute;
+    top:0;
+    width: 0;
+    height: 0;
+    border-top: 19px solid transparent;
+    border-bottom: 19px solid transparent;
+}
+#navlist .navlist_gray b{
+    border-left: 20px solid #fff;
+    left:0;
+}
+#navlist .navlist_gray i{
+    border-left: 20px solid #e8e8e8;
+    right:-20px;
+}
+
+
+
+
+#container .adress_choice > p,
+.invoice_choice>p,
+.leave>p{
+     font-family:"microsoft yahei";
+     font-size:18px;
+     font-weight:bold;
+     padding-bottom:12px;
+     color: #333;
+ }
+#addresId1,
+#invoice {
+    margin-bottom: 10px;
+    height:38px;
+}
+#addresId1{
+    box-shadow: 0 0 2px 1px #108bee;
+}
+#addresId1 .address_name{
+    position: relative;
+    font-style: normal;
+    font-size:12px;
+    display: inline-block;
+    padding:0 20px 0 40px;
+    height:36px;
+    line-height: 36px;
+    text-align:center;
+    color:#f50;
+}
+#addresId1 .address_name input{
+    position: absolute;
+    left:10px;top:10px;
+    width: 18px;
+    height: 18px;
+}
+#addresId1 .user_address{
+    margin-left: 15px;
+    color:#808080;
+    font-family:SimHei;
+    font-style: normal;
+    font-size:14px;
+    width: 130px;
+    height:36px;
+    line-height: 36px;
+    text-align:center;
+}
+#addresId1 .address_default{
+    padding:2px 5px;
+    margin-left: 5px;
+    background-color: #bbb;
+    color:#fff;
+}
+#container .adress_choice,
+.invoice_choice,
+.leave{
+    border-bottom: 1px dashed #ddd;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.leave>div{
+    padding:0 40px;
+}
+.leave textarea{
+    resize:none;
+    width: 100%;
+    height: 60px;
+    outline: 0;
+}
+#container .invoice_choice{
+    padding-bottom: 0;
+}
+#invoice i{
+    display: inline-block;
+    width: 100px;
+    line-height: 35px;
+    text-align: center;
+    margin-right: 10px;
+    border:2px solid #aaa;
+    cursor: pointer;
+}
+#invoice input{
+    width: 200px;
+    height: 36px;
+    border:1px solid #ddd;
+    padding-left: 10px;
+    vertical-align:top;
+}
+#invoice .invoice_choose{
+    border:2px solid #108bee;
+}
+#container .adress_choice > a{
+    font-family:SimHei;
+    font-size:13px;
+    font-weight: bold;
+}
+#container .adress_choice > a:hover{
+    color:#f00;
+}
+
+
+
+
+
+#container .product_confirm > p{
+    font-family:"microsoft yahei";
+    font-size:18px;
+    font-weight:bold;
+    margin-top:25px;
+    padding-bottom:10px;
+    color: #333;
+}
+#container .product_color {
+    color: #f50;
+}
+#container .product_name > p>a{
+    font-size: 14px;
+}
+#container .item_title{
+    height: 42px;
+    font-size: 12px;
+    font-weight:bold;
+    color:#888;
+    background-color: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    display: flex;
+    margin-bottom: 10px;
+}
+#container .item_title >li{
+    line-height:42px;
+    text-align:center;
+}
+.p_info{flex:1;}
+.p_price{flex:0 0 240px;}
+.p_count{flex:0 0 180px;}
+.p_tPrice{flex:0 0 252px;}
+
+#container .item_title >li~li,
+#container .item_detail >li~li{
+    border-left:1px solid #ddd;
+}
+#container .item_detail{
+    display: flex;
+    height:112px;
+    border:1px solid #ddd;
+    background-color:#fff;
+}
+#container .item_detail~.item_detail{
+    border-top:0;
+}
+#container .item_detail >li{
+    height: 112px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+#container .item_detail >li:not(:first-child){
+    justify-content: center;
+}
+#container .item_detail > .p_info{
+    overflow: hidden;
+    padding:0  20px;
+}
+#container .item_detail > .p_info .pimg{
+    flex:0 0 85px;
+    width: 85px;
+    height: 85px;
+    margin-right: 15px;
+}
+#container .item_detail > .p_info .pimg img{
+    width: 85px;
+    height: 85px;
+}
+#container .item_detail > .p_price  b{
+    display: block;
+    color:#108bee;
+    font-style: normal;
+    font-weight: bold;
+}
+#container .item_detail > .p_price .pro_price{
+    text-align: center;
+}
+#container .item_detail > .p_info .product_name{
+    flex:1;
+}
+
+#count_bar{
+    margin-top:10px;
+    margin-bottom:50px;
+    height:46px;
+    background:#e8e8e8;
+    position:relative;
+}
+#count_bar .go_cart a{
+    font-weight: bold;
+    font-size: 14px;
+    color:#108bee;
+}
+#count_bar .go_cart a:hover{
+    color:#f50;
+}
+#count_bar>span{
+    display: inline-block;
+    font-size:12px;
+    line-height:46px;
+}
+#count_bar>span>b{
+    font-size:18px;
+    font-weight:bold;
+    color:#108bee;
+}
+#count_bar>.go_pay {
+    background-color: #108bee;
+    display: inline-block;
+    width: 140px;
+    height: 46px;
+    line-height: 44px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    position: absolute;
+    right: 0px;
+    cursor:pointer;
+}
+#count_bar>.go_pay:hover{
+    background-color: #0aa1fd;
+}
+#count_bar .go_cart{
+    padding: 0 16px;
+}
+#count_bar .count_bar_info {
+    position: absolute;
+    right: 161px;
+}

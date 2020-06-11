@@ -1,0 +1,87 @@
+#shordcut {
+  width: 100%;
+  height: 42px;
+  background-color: #f9f9f9;
+  border: 1px solid #eee; 
+}
+#shordcut .new {
+  width: 1200px;
+  margin: auto; 
+}
+#shordcut .new .fl {
+  font-size: 14px;
+  line-height: 40px;
+}
+#shordcut .new .fl i {
+  position: relative;
+  top: 5px;
+  margin-left: 5px;
+  width: 12px;
+  height: 19px;
+  background: url(../../images/shortcut.png); 
+}
+#shordcut .new .fl a {
+  color: #079ce9; 
+}
+#shordcut .new .fr {
+  line-height: 39px; 
+}
+#shordcut .new .fr li {
+  float: left;
+  margin-left: 10px; 
+}
+#shordcut .new .fr li:nth-child(1) {
+  margin-right: 110px; 
+}
+#shordcut .new .fr li:nth-child(2) dl {
+  width: 88px; 
+}
+#shordcut .new .fr li:nth-child(2) dl dt {
+  padding: 0 8px; 
+}
+#shordcut .new .fr li:nth-child(2) dl dt i {
+  position: relative;
+  top: -3px;
+  width: 12px;
+  height: 5px;
+  background: url(../../images/shortcut.png) 0 -19px no-repeat; 
+}
+#shordcut .new .fr li:nth-child(2) dl dd {
+  display: none;
+  padding: 4px 0 4px 16px; 
+}
+#shordcut .new .fr li:nth-child(2):hover dl {
+  box-shadow: -1px -1px 2px 0 #ccc,1px 1px 2px 0 #ccc; 
+}
+#shordcut .new .fr li:nth-child(2):hover dt i {
+  background: url(../../images/shortcut.png) 0 -25px no-repeat; 
+}
+#shordcut .new .fr li:nth-child(2):hover dd {
+  display: block; 
+}
+#shordcut .new .fr li:nth-child(3) b {
+  position: relative;
+  top: 3px;
+  left: 3px;
+  width: 17px;
+  height: 15px;
+  background: url(../../images/master1.png); 
+}
+#shordcut .new .carcount {
+  position: relative;
+  left: -3px;
+  width: 15px;
+  padding:0 1px;
+  text-align: center;
+  line-height: 14px;
+  border-radius: 7px;
+  background-color: #f50;
+  color: #fff;
+  font-style: normal; 
+}
+#shordcut .new .fr li:nth-child(5) b {
+  color: #f50;
+  letter-spacing: 1px; 
+}
+
+/*# sourceMappingURL=header1.css.map */

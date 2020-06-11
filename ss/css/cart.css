@@ -1,0 +1,261 @@
+
+.personal{
+	padding-bottom: 40px;
+	background-color: #f5f5f5;
+	font-size:14px;
+}
+.cart-thead{
+	margin-bottom:10px;
+	padding:15px 20px;
+	padding-right:40px;
+	background-color: #fff;
+  box-shadow: 0 2px 5px 0 #ddd;
+}
+.cart-thead .cell-all{
+	width: 220px;
+	text-align: left;
+}
+.cart-thead .checkall,
+.cart-list .ci-select{
+  margin-right: 10px;
+  vertical-align: top;
+}
+.cart-thead .cell-name{
+	width: 320px;
+}
+.cart-thead .cell-price{
+	width: 120px;
+}
+.cart-thead .cell-num,
+.cart-thead .cell-total{
+	width: 150px;
+}
+.cart-thead .cell-tool{
+	width: 170px;
+}
+.cart-item{
+	background-color: #fff;
+	margin-bottom: 10px;
+  border: 1px solid #e6e6e6;
+  min-height: 195px;
+}
+.ci-thead{
+	padding:10px 20px;
+	padding-right: 40px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.ci-tbody{
+	padding:0 40px;
+}
+.ci-tbody .cart-row{
+	padding:15px 0;
+	border-bottom: 1px dashed #e6e6e6;
+	zoom:1;
+}
+.cell{
+	display: block;
+	float: left;
+	text-align: center;
+	line-height: 1.6;
+	min-height: 20px;
+}
+.ci-tbody .cell{
+	padding-top: 32px;
+	height: 22px;	
+}
+.ci-tbody .cell-img{
+	padding: 0 86px 0 20px;
+	width: 83px;
+	height: 81px;
+}
+.ci-tbody .cell-img img{
+  width: 100%;
+  height: 100%;
+  border:1px solid #ddd;
+}
+.ci-tbody .cell-name{
+  padding: 0 20px;
+	height: 83px;
+	width: 280px;
+	text-align: left;
+  display: flex;
+  align-items: center;
+}
+.ci-tbody .cell-price{
+	width: 130px;
+}
+.ci-tbody .cell-num{
+	width: 150px;
+	font-size:0;
+}
+.ci-tbody .cell-num a{
+	display: inline-block;
+  padding: 1px 6px;
+  text-align: center;
+  zoom: 1;
+  height: 20px;
+  width: 12px;
+  border: 1px solid #D3D3D3;
+  font-size: 14px;
+  line-height: 20px;
+  vertical-align: middle;
+}
+.ci-tbody .cell-num .c-rdecrease{
+	border-right: 0;
+}
+.ci-tbody .cell-num .c-add{
+	border-left: 0;
+}
+.ci-tbody .cell-num input{
+	width: 30px;
+  height: 14px;
+  padding: 4px;
+  border: 1px solid #D3D3D3;
+  vertical-align: middle;
+  text-align: center;
+}
+.ci-tbody .cell-total{
+	width: 150px;
+	color:#f50;
+}
+.ci-tbody .cell-tool{
+	width: 170px;
+}
+.ci-tfoot{
+	padding: 10px 40px;
+	text-align: right;
+}
+.ci-tfoot a{
+	margin-left: 20px;
+	color: #f50;
+	font-size: 13px;
+}
+.ci-tfoot a i{
+  display: inline-block;
+  width: 15px;
+  height: 18px;
+  margin-right: 5px;
+  vertical-align: top;
+  background: url(../images/cart-icon.png) -56px -37px no-repeat;
+}
+#scrolldiv{
+	height: 0;
+	width: 100%;
+}
+.cart-options-bar{
+	padding:20px 30px 20px 45px;
+	width: 1125px;
+	background-color: #fff;
+	z-index: 666;
+}
+.cart-options-bar .fl span{
+	height: 40px;
+	margin-right: 45px;
+}
+.cart-options-bar .fl b{
+	padding:0 3px;
+	color:#f50;
+}
+.cart-options-bar .btn-again{
+	display: inline-block;
+	zoom:1;
+	padding:0 32px;
+	height: 38px;
+	border:1px solid #d2d2d2;
+	font-size:16px;
+	line-height: 38px;
+}
+.cart-options-bar .fr span{
+	margin-right: 30px;
+	font-size:16px;
+	/*vertical-align:top;*/
+}
+.cart-options-bar .fr span b{
+	color:#f50;
+	font-size: 28px;
+	font-weight:normal;
+}
+.cart-options-bar .fr a{
+	display: inline-block;
+	zoom:1;
+	width: 156px;
+    height: 47px;
+    line-height: 47px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #FF5500;
+    text-align: center;
+}
+/****模态框****/
+.modal,.modalNo,.modalAdd{
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background: rgba(0,0,0,0.3);
+    z-index:9999;
+}
+.modal_dialog{
+    width:400px;
+    height:200px;
+    position: absolute;
+    left:0;right:0;top:0;
+    bottom:0;
+    margin:auto;
+    background: #fff;
+    border-radius: 10px;
+}
+.modal_header{
+    position: relative;
+    width: 380px;
+    height:42px;
+    line-height: 42px;
+    background: #e8e8e8;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 16px;
+    padding-left: 20px;
+}
+.modal_information{
+    width:254px;
+    margin:0 auto;
+    margin-top:21px;
+    font-size: 16px;
+}
+.modalNo .modal_information,.modalAdd .modal_information{
+    width:169px;
+    margin:0 auto;
+    margin-top:44px;
+    font-size: 16px;
+}
+.yes,.no{
+    display: inline-block;
+    width:124px;
+    height:42px;
+    line-height: 42px;
+    border-radius: 10px;
+    font-size: 16px;
+    background: #ccc;
+    margin-top:17px;
+    cursor: pointer;
+    color: #fff;
+}
+.yes>span{
+    margin-left: 45px;
+}
+.no>span{
+    margin-left: 38px;
+}
+.yes{
+    margin-left:52px;
+    margin-right: 48px;
+    background: #0aa1ed;
+}
+
+.close{
+    position: absolute;
+    top:16px;
+    right:20px;
+    cursor: pointer;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>订单确认</title>
+	<link rel="stylesheet" href="css/base.css" type="text/css">
+	<link rel="stylesheet" href="css/order_confirm.css" type="text/css">
+	<link rel="shortuct icon" href="favicon.ico">
+</head>
+<body>
+	<div id="headers1"></div>
+	<div id="headers">
+		<div class="main">
+			<div id="logo">
+				<a href="index.html">
+					<img src="images/logo.gif" alt="">
+				</a>
+			</div>
+			<h1>订单确认</h1>
+		</div>
+	</div>
+	<div id="navlist" class="main ">
+	    <ul>
+	        <li class="navlist_blue">确认订单信息<i></i></li>
+	        <li class="navlist_gray"><b></b>订单支付<i></i></li>
+	        <li class="navlist_gray"><b></b>支付完成</li>
+	    </ul>
+	</div>
+	<div class="main">
+		<div id="container">
+		    <!--收货地址-->
+		    <div class="adress_choice">
+		        <p>收货人信息</p>
+
+		        <div id="addresId1">
+		            <span class="address_name">
+		        			<input type="radio" checked>
+		              <span></span>
+		            </span>
+		            <i class="user_address">
+		               刘罗锅  湖北省  武汉市 汉阳区 余杭路123号 13800138000
+		            </i>
+		            <span class="address_default">默认地址</span>
+		        </div>
+		        <a href="#">
+		            更多地址 &gt;&gt;
+		        </a>
+		    </div>
+		    <div class="invoice_choice">
+		        <p>发票</p>
+
+		        <div id="invoice">
+		            <i class="invoice_choose">
+		        		个人
+		            </i>
+		            <i class="invoice_default">
+		            	单位
+		            </i>
+		            <input type="text" placeholder="请输入发票抬头">
+		        </div>
+		    </div>
+		    <div class="leave">
+		    	<p>留言</p>
+		    	<div>
+		    		<textarea name="" id="" cols="" rows="10"></textarea>
+		    	</div>
+		    </div>
+		    <!-- 商品信息-->
+		    <form name="" method="post" action="#">
+		        <div class="product_confirm">
+		            <p>确认商品信息</p>
+		            <ul class="item_title">
+		                <li class="p_info">商品信息</li>
+		                <li class="p_price">单价(元)</li>
+		                <li class="p_count">数量</li>
+		                <li class="p_tPrice">金额</li>
+		            </ul>
+		            <div id="product_list">
+		                <div class="loading"><img src="img/loading.gif"></div>
+		                <!-- <ul class="item_detail">
+			                <li class="p_info">
+			                    <a class="pimg" href='#'>
+			                    	<img src="img/orderConfirm/product_simg1.png"/>
+			                    </a>
+
+			                    <div class="product_name">
+			                        <p><a href=""></a></p>
+			                				<p class="product_color "></p>
+			                    </div>
+			                </li>
+			                <li class="p_price">
+			                    <p class="pro_price"><b>优惠价</b>
+			                    ￥<span class="ppp_price">4800.00</span></p>
+			                </li>
+			                <li class="p_count">X<span>1</span></li>
+			                <li class="p_tPrice">￥<span>12345.00</span></li>
+		            	</ul> -->
+		            </div>
+		        </div>
+		    </form>
+		    <!-- 结算条-->
+		    <div id="count_bar">
+		        <span class="go_cart"><a href="cart.html" >&lt;&lt;返回购物车</a></span>
+		        <span class="count_bar_info">共<b  id="count"> 0 </b>件商品&nbsp;&nbsp;合计(不含运费)：<b class="zj"></b> <input type="hidden" name="Payment" value=""/>元</span>
+		        <a href='payment.html' class="go_pay">提交订单</a>
+		    </div>
+		</div>
+	</div>
+
+
+	<div id="footers"></div>
+	<script src='js/jquery.js'></script>
+	<script src='js/header1.js'></script>
+	<script src='js/order_confirm.js'></script>
+</body>
+</html>

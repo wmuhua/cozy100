@@ -1,0 +1,247 @@
+@charset "utf-8";
+
+#headers {
+  height: 110px;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #108bee;
+}
+#headers > .main {
+  height: 110px;
+  position: relative;
+}
+#headers > .main #logo {
+  position: absolute;
+  bottom: 0px;
+  width: 198px;
+  height: 75px;
+}
+#headers > .main >h1{
+  position: absolute;
+  left: 198px;bottom:15px;
+  font-size: 30px;
+  font-weight: bold;
+  color:#000;
+  font-family: '宋体';
+}
+.personal{
+  background-color: #f5f5f5;
+  padding-bottom: 15px;
+}
+#nav_order{
+  background-color: #fff;
+  line-height: 40px;
+  box-shadow: 0 2px 5px 0 #ccc,2px 0 3px 0 #ccc;
+  margin-bottom: 15px;
+}
+#nav_order a{
+  font-weight: bold;
+  font-size: 14px;
+}
+#nav_order a:first-child{
+  margin-left: 15px;
+}
+#nav_order span{
+  margin :0 5px;
+  font-family: '宋体';
+  font-size: 12px;
+}
+#leftsidebar_box{
+  width:160px;
+  overflow: hidden;
+  font-size:13px;
+  color:#808080;
+  font-family: "宋体";
+}
+#leftsidebar_box dl{
+  margin-bottom: 10px;
+}
+#leftsidebar_box .my_discounts{
+  margin-bottom: 0;
+}
+#leftsidebar_box dt{
+  padding-left:40px;
+  padding-right:10px;
+  color:#f5f5f5;
+  font-size:14px;
+  font-weight:bold;
+  position:relative;
+  line-height:36px;
+  cursor:pointer;
+  background-color: #108bee;
+}
+#leftsidebar_box dt img:nth-child(1){
+    position:absolute;
+    left:10px;
+    top:9px;
+}
+#leftsidebar_box dt img:nth-child(2){
+  position: absolute;
+  right:15px;top:10px;
+  width: 18px;
+  height: 18px;
+}
+#leftsidebar_box dd{
+    background-color:#fff;
+    text-indent: 3em;
+    line-height: 38px;
+    position: relative;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+}
+#leftsidebar_box dd~dd{
+  border-top: 1px dashed #ddd;
+}
+#leftsidebar_box dd:last-child{
+  border-bottom: 1px solid #e5e5e5;
+}
+#leftsidebar_box dd span{
+    color:#f50;
+}
+#leftsidebar_box dd a{
+    display: block;
+    color:#808080;
+    line-height: 38px;
+}
+#leftsidebar_box dd a:hover{
+    color:#0aa1ed;
+    background-color: #f5f5f5;
+}
+#rightsidebar_box{
+  width: 1025px;
+  min-height: 564px;
+  background-color: #fff;
+}
+.rs_header{
+    height:36px;
+    background: -moz-linear-gradient(top, #fff 0%, #e6e6e5 100%);
+    background: -webkit-linear-gradient(top, #fff 0%,#e6e6e5 100%);
+    background: -o-linear-gradient(top, #fff 0%,#e6e6e5 100%);
+    background: -ms-linear-gradient(top, #fff 0%,#e6e6e5 100%);
+    font:16px simhei;
+}
+.rs_header>span{
+    display: inline-block;
+    width: 100px;
+    height: 100%;
+    text-align: center;
+    line-height: 36px;
+    color: #808080;
+    cursor: pointer;
+}
+
+.rs_content{
+    background: #fff;
+    padding:30px 20px 80px 20px;
+    font: 16px simhei;
+}
+.rs_content .label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+.rs_content_avatar {
+    height:70px;
+    border-bottom: 1px solid #e8e8e8;
+}
+#avatar{
+  vertical-align: top;
+}
+.same_click{
+    font-size: 14px;
+    color: #108bee;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.rs_content_username,.rs_content_realName,.rs_content_sex,.rs_content_tel,.rs_content_mail{
+    height: 58px;
+    line-height: 58px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.rs_content input{
+    width:156px;
+    height: 28px;
+    border: 1px solid #e8e8e8;
+
+}
+.man,.women{
+    cursor: pointer;
+    margin: 0 10px;
+}
+.man>img,.women>img{
+    margin-right: 8px;
+}
+.save{
+    width: 136px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #108bee;
+    color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.address_title{
+    font-weight: bold;
+    margin-left: 20px;
+}
+.red{
+    color: red;
+    margin-right: 5px;
+}
+.recipients{
+    height: 24px;
+    margin-bottom: 20px;
+}
+.recipients>input{
+    width:80px;
+    height: 24px;
+    border: 1px solid #808080;
+}
+.address_content>select{
+    padding: 2px;
+    margin-right: 20px;
+}
+.address_content{
+    margin-bottom: 20px;
+}
+.address_particular{
+    width: 100%;
+    height: 54px;
+    line-height: 54px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.address_particular>textarea{
+    position: absolute;
+    top: 0;
+    left: 100px;
+    border: 1px solid #808080;
+}
+.address_tel>input{
+    width: 150px;
+    height: 24px;
+    border: 1px solid #808080;
+    margin-right: 30px;
+}
+.address_tel{
+    margin-bottom: 20px;
+}
+.address_postcode{
+    margin-bottom: 20px;
+}
+.address_postcode>input{
+    width: 150px;
+    height: 24px;
+    border: 1px solid #808080;
+}
+.address_name{
+    margin-bottom: 30px;
+}
+.address_name>input{
+    width: 75px;
+    height: 24px;
+    border: 1px solid #808080;
+    margin-right: 30px;
+}

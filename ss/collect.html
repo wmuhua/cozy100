@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>我的收藏</title>
+  <link rel="stylesheet" href="css/base.css" type="text/css">
+  <link rel="stylesheet" href="css/collect.css" type="text/css">
+  <link rel="shortuct icon" href="favicon.ico">
+</head>
+<body>
+  <div id="headers1"></div>
+  <div id="headers">
+    <div class="main">
+      <div id="logo">
+        <a href="index.html">
+          <img src="images/logo.gif" alt="">
+        </a>
+      </div>
+      <h1>我的收藏</h1>
+    </div>
+  </div>
+<div class="modal" style="display:none">
+  <div class="modal_dialog">
+    <div class="modal_header">
+      删除提醒
+    </div>
+    <div class="modal_information">
+      <img src="img/model/model_img2.png" alt=""/>
+      <span>确定删除您的这个宝贝吗？</span>
+
+    </div>
+    <div class="yes"><span>删除</span></div>
+    <div class="no"><span>不删除</span></div>
+  </div>
+</div>
+<div class="modalNo" style="display:none">
+  <div class="modal_dialog">
+    <div class="modal_header">
+      删除提示
+      <img src="img/model/model_img1.png" alt="" class="rt close"/>
+    </div>
+    <div class="modal_information">
+      <img src="img/model/model_img2.png" alt=""/>
+      <span>请选择商品</span>
+
+    </div>
+
+  </div>
+</div>
+
+<div class="modalAdd" style="display:none">
+  <div class="modal_dialog">
+    <div class="modal_header">
+      添加提示
+      <img src="img/model/model_img1.png" alt="" class="rt close"/>
+    </div>
+    <div class="modal_information">
+      <img src="img/model/model_img2.png" alt=""/>
+      <span>请选择商品</span>
+
+    </div>
+
+  </div>
+</div>
+
+<div class="big clearfix main">
+  <form name="" action="" method="post">
+    <section id="section">
+      <div id="title">
+        <b>我收藏的商品</b>
+      </div>
+      <div id="box">
+        <div class="imfor_top">
+          <div class="manage">
+            <span class="normal">管理收藏夹</span>
+          </div>
+          <div class="check_top">
+            <div class="all">
+              <span class="normal">
+                <img src="img/myCollect/product_normal.png" alt=""/>
+              </span>全选
+            </div>
+            <div class="del">删除</div>
+            <div class="sure" style="display: none">
+              <img src="img/myCollect/product_true.png" alt=""/>
+              <span>已移入购物车</span>
+            </div>
+          </div>
+          <div class="foot_qk"><a href="cart.html">去购物车</a></div>
+        </div>
+        <div id="content_box" class="clearfix">
+          <!-- <div class="fl" id="d1">
+              <div class="img">
+                <img src="img/myCollect/product_img1.png" alt=""/>
+              </div>
+              <div class="describe">
+                <p>DELL燃7000&nbsp;14.0</p>
+                <span class="price">
+                  <b>￥</b><span class="priceContent">4000.00</span>
+                </span>
+                <span class="addCart">加入购物车</span>
+                <span class="succee" style="display: none">
+                   <img src="img/myCollect/product_true.png" alt=""/>
+                   <span>已移入购物车</span>
+                </span>
+              </div>
+              <div class="mask" style="display: none">
+                <div class="maskNormal">
+                  <img src="img/myCollect/product_normal_big.png" alt=""/>
+                </div>
+              </div>
+            </div> -->
+        </div>
+        <div class="foot">
+          <div class="manage">
+            <span class="normal">管理收藏夹</span>
+          </div>
+          <div class="check_top">
+            <div class="all">
+              <span class="normal"> <img src="img/myCollect/product_normal.png" alt=""/></span>全选
+            </div>
+            <div class="del">删除</div>
+            <div class="sure" style="display: none">
+              <img src="img/myCollect/product_true.png" alt=""/>
+              <span>已移入购物车</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </form>
+  <div class="none" style="display: none">
+    <div class="none_content">
+      <img src="img/model/model_img3.png" alt="" class="fl"/>
+      <p class="fl">您的收藏夹竟然还是空哒( ⊙ o ⊙ )</p>
+      <span class="fl">赶快去收藏商品吧！</span>
+      <a href="#" class="fl">去购物>></a>
+    </div>
+
+  </div>
+</div>
+  <div id="footers"></div>
+  <script src='js/jquery.js'></script>
+  <script src='js/header1.js'></script>
+  <script src='js/collect.js'></script>
+  <script src="js/fly.js"></script>
+  <script src='js/product_detail.js'></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+#service {
+  width: 100%;
+  height: 196px;
+}
+#service > .w_new {
+  height: 196px;
+}
+#service > .w_new > dl {
+  float: left;
+  width: 180px;
+  height: 146px;
+  padding: 15px 0 35px;
+}
+#service > .w_new > dl dt {
+  font-size: 22px;
+  line-height: 45px;
+  color: #000;
+}
+#service > .w_new > dl dd {
+  line-height: 30px;
+}
+#service > .w_new > dl dd:hover a {
+  color: #f50;
+  text-decoration: underline;
+}
+#service > .w_new .service-contace {
+  width: 211px;
+  height: 128px;
+  padding: 10px 0 20px 50px;
+  margin-top: 20px;
+  border-left: 1px solid #ddd;
+}
+#service > .w_new .service-contace b {
+  font-size: 24px;
+  color: #fe5102;
+  letter-spacing: 2px;
+  line-height: 1.2;
+}
+#service > .w_new .service-contace p {
+  letter-spacing: 2px;
+  font-size: 18px;
+  color: #f50;
+  line-height: 2;
+}
+#service > .w_new .service-contace a {
+  margin-top: 20px;
+  display: block;
+  width: 140px;
+  height: 30px;
+  border: 1px solid #f50;
+  color: #f50;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+}
+#service > .w_new .service-contace a i {
+  position: relative;
+  top: 2px;
+  width: 11px;
+  height: 11px;
+  margin-right: 3px;
+  background: url(../../images/common-icons.png) 0 -70px;
+}
+#service > .w_new .fr {
+  margin-top: 35px;
+  margin-left: 12px;
+}
+#service > .w_new .fr p {
+  margin-top: 10px;
+  font-size: 12px;
+  text-align: center;
+}
+
+#footer {
+  height: 166px;
+  background-color: #3c3c3c;
+  padding: 15px 0 30px;
+}
+#footer > .main {
+  height: 121px;
+  padding: 15px 0 30px;
+}
+#footer > .main p {
+  text-align: center;
+  margin-bottom: 15px;
+}
+#footer .rows1 a {
+  padding: 0 10px;
+  color: #fff;
+}
+#footer .rows2 a {
+  display: inline-block;
+  width: 106px;
+  height: 36px;
+  border-radius: 6px;
+}
+#footer .rows2 a:nth-child(1) {
+  background: url(../../images/authentication.png) no-repeat;
+}
+#footer .rows2 a:nth-child(2) {
+  background: url(../../images/authentication.png) no-repeat -120px 0;
+}
+#footer .rows2 a:nth-child(3) {
+  background: url(../../images/authentication.png) no-repeat -241px 0;
+}
+#footer .rows2 a:nth-child(4) {
+  background: url(../../images/authentication.png) no-repeat -362px 0;
+}
+#footer .rows3 {
+  color: #888;
+}
+#footer .rows3 i {
+  position: relative;
+  top: 5px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../../images/beian_icon.png) no-repeat;
+}
+#footer .rows4 {
+  color: #aaa;
+}

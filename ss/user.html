@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>用户中心</title>
+  <link rel="stylesheet" href="css/base.css" type="text/css">
+  <link rel="stylesheet" href="css/user.css" type="text/css">
+  <link rel="shortuct icon" href="favicon.ico">
+</head>
+<body>
+  <div id="headers1"></div>
+  <div id="headers">
+    <div class="main">
+      <div id="logo">
+        <a href="index.html">
+          <img src="images/logo.gif" alt="">
+        </a>
+      </div>
+      <h1>用户中心</h1>
+    </div>
+  </div>
+  <div class="personal">
+    <!-- 面包屑导航 -->
+    <div id="nav_order" class="main">
+      <p>
+        <a href="index.html">首页</a><span>&gt;</span>
+        <a href="javascript:;">用户中心</a>
+      </p>
+    </div>
+    <div class="main clearfix">
+      <div id="leftsidebar_box" class="fl">
+        <dl class="my_accounts">
+          <dt>
+            <img src="img/myOrder/user.png" width='18' height='18' alt="">
+            帐号中心
+            <img class='menu_img' src="img/myOrder/myOrder2.png" alt="">
+          </dt>
+          <dd>
+            <a href="javascript:;">个人信息</a>
+          </dd>
+          <dd>
+            <a href="javascript:;">安全设置</a>
+          </dd>
+        </dl>
+        <dl class="my_order">
+          <dt>
+            <img src="img/myOrder/menu.png" width='18' height='18' alt="">
+            我的订单
+            <img class='menu_img' src="img/myOrder/myOrder2.png" alt="">
+          </dt>
+          <dd>
+            <a href="javascript:;">全部订单</a>
+          </dd>
+          <dd>
+            <a href="javascript:;">待付款 <span>1</span></a>
+          </dd>
+          <dd>
+            <a href="javascript:;">待收货 <span>1</span></a>
+          </dd>
+          <dd>
+            <a href="javascript:;">待评价 <span>1</span></a>
+          </dd>
+          <dd>
+            <a href="javascript:;">退货退款 <span>1</span></a>
+          </dd>
+        </dl>
+        <dl class="my_address">
+          <dt>
+            <img src="img/myOrder/address.png" width='18' height='18' alt="">
+            地址管理
+            <img class='menu_img' src="img/myOrder/myOrder2.png" alt="">
+          </dt>
+          <dd>
+            <a href="javascript:;">收货地址</a>
+          </dd>
+          <dd>
+            <a href="javascript:;">添加地址</a>
+          </dd>
+        </dl>      
+        <dl class="my_discounts">
+          <dt>
+            <img src="img/myOrder/discounts.png" width='18' height='18' alt="">
+            优惠信息
+            <img class='menu_img' src="img/myOrder/myOrder2.png" alt="">
+          </dt>
+          <dd>
+            <a href="javascript:;">我的优惠券 <span>1</span></a>
+          </dd>
+        </dl>
+      </div>
+      <div id='rightsidebar_box' class="fr">
+          <div class="rs_header">
+            <span class="rs_header_active">
+              <a href="uc_basic.html">个人信息</a>
+            </span>
+          </div>
+          <div class="rs_content">
+            <form id="form-uc-basic">
+              <!--头像-->
+              <div class="rs_content_avatar">
+                <span class="label">我的头像：</span>
+                <img id="avatar" src="img/avatar/default.png">
+                <span class="same_click" onclick="toPage('uc_avatar.html')">更改头像</span>
+              </div>
+              <!--用户名-->
+              <div class="rs_content_username">
+                <span class="label">用 户 名：</span>
+                <input name="user_name" type="text">
+              </div>
+              <!--性别-->
+              <div class="rs_content_sex">
+                <span class="label">性&emsp;&emsp;别：</span>
+                <input type="hidden" name="gender" value="1">
+                <span class="man selected">
+                    <img src="img/uc/select.png">男
+                </span>
+                <span class="women">
+                    <img src="img/uc/un_select.png">女
+                </span>
+              </div>
+              <!--绑定电话-->
+              <div class="rs_content_tel">
+                <span class="label">绑定电话：</span>
+                <input name="phone" type="text">
+              </div>
+              <!--绑定邮箱-->
+              <div class="rs_content_mail">
+                <span class="label">绑定邮箱：</span>
+                <input name="email">
+              </div>
+              <!--保存按钮-->
+              <div class="save">
+                保存更改
+              </div>
+            </form>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div id="footers"></div>
+<script src="js/jquery.js"></script>
+<script src="js/header1.js"></script>
+<script src="js/user.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>登录</title>
+	<link rel="stylesheet" href="css/base.css" type="text/css">
+	<link rel="stylesheet" href="css/login.css" type="text/css">
+	<link rel="shortuct icon" href="favicon.ico">
+</head>
+<body>
+	<div id="headers1"></div>
+	<div id="header">
+		<div class="main">
+			<div id="logo">
+				<a href="index.html">
+					<img src="images/logo.gif" alt="">
+				</a>
+			</div>
+			<div class="blink fr">
+				<a href="#">
+					<i></i>
+					<span><b>140个</b>全国可服务城市</span>
+				</a>
+				<a href="#">
+					<i></i>
+					<span><b>140个</b>全国可服务城市</span>
+				</a>
+				<a href="#">
+					<i></i>
+					<span><b>140个</b>全国可服务城市</span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div id="logo_form" class="main">
+		<div class="w">
+			<div class="mc clearfix">
+				<div class="fl">
+					<img src="images/gg_regist.png" alt="">
+				</div>
+				<div class="fr login_interface">
+					<h3>用户登录</h3>
+					<form id='login'>
+						<div class="item">
+							<i class="user-icon"></i>
+							<div class="fl">
+								<input type="text" name="uname" placeholder="请输入用户名" id="loginname" class="text" value='高渐离'>
+								<label for=""></label>
+								<span class="clr"></span>
+							</div>
+						</div>
+						<div class="item">
+							<i class="upwd-icon"></i>
+							<div class="fl">
+								<input type="password" name="upwd" placeholder="请输入密码" id="loginpwd" class="text" value='123456'>
+								<label for=""></label>
+								<span class="clr"></span>
+							</div>
+						</div>
+						<div class="item" id="autoentry">
+							<input type="checkbox" id="motion">
+							<label for="motion">自动登录</label>
+							<span class="fr">公共场所不建议自动登录哦</span>
+						</div>
+						<div class="item item4">
+							<input type="button" value="登录" id='button'>
+						</div>
+					</form>
+					<p>
+						<a href="#">还没有帐号?立即注册</a>
+						<a href="#" class="fr">忘记密码?</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id='footers'></div>
+	<script src="js/jquery.js"></script>
+	<script src="js/header1.js"></script>
+	<script src="js/login.js"></script>
+</body>
+</html>
